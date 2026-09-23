@@ -1,0 +1,17 @@
+.btn-primary {
+    cursor: pointer;
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    --tw-duration: .3s;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    display: inline-flex;
+    padding-inline: calc(var(--spacing) * 8);
+    padding-block: calc(var(--spacing) * 4);
+    background: linear-gradient(135deg, rgb(249, 115, 22), rgb(234, 88, 12));
+    border-radius: 3.40282e+38px;
+}
